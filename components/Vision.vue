@@ -1,11 +1,10 @@
 <template>
-  <div class="flex justify-around sm:justify-between sm:px-12">
-    <div class="flex">
-      <div>
-        <svg
+  <div class="border-line border-2 border-red-200 relative">
+    <div class="absolute" style="top:-50px;right:0">
+          <svg
           viewBox="-3 0 471 471.84935"
           xmlns="http://www.w3.org/2000/svg"
-          height="50"
+          height="80"
         >
           <path
             d="M146.71875 275.414062c-16.871094 10.125-35.636719 16.691407-55.140625 19.296876L73.441406 312.3125C41.4375 343.429688 19.082031 383.113281 9.046875 426.609375L.425781 464l36.261719-8.367188c44.191406-10.199218 84.425781-33.117187 115.738281-65.921874h.886719c1.558594-4.667969 2.058594-9.625 1.464844-14.511719C152.625 364.800781 137.226562 355.320312 137.226562 344s15.398438-20.800781 17.550782-31.199219c2.304687-11.144531-7.832032-26.105469-3.410156-35.679687zm0 0M313.488281 277.144531c4.417969 9.597657-5.71875 24.519531-3.414062 35.65625C312.226562 323.199219 327.625 332.679688 327.625 344s-15.398438 20.800781-17.550781 31.199219c-.59375 4.886719-.097657 9.84375 1.453125 14.511719h.898437s71.550781 55.722656 115.734375 65.921874L464.425781 464l-8.625-37.390625c-10.039062-43.484375-32.394531-83.15625-64.390625-114.265625l-18.136718-17.601562c-19.503907-2.605469-38.269532-9.171876-55.144532-19.292969zm0 0"
@@ -40,23 +39,14 @@
             fill="#941953"
           />
         </svg>
-      </div>
-      <div class="ml-2 mt-1 flex flex-col items-center justify-center logo-text">
-        <span class="">ATOR</span>
-
-        <span class="slogan">Asociación tolimense de Orquidelogía</span>
-      </div>
     </div>
-    <div class="flex items-center">
-      <svg
-        height="18"
-        viewBox="0 -53 384 384"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M368 154.667969H16c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0M368 32H16C7.167969 32 0 24.832031 0 16S7.167969 0 16 0h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0M368 277.332031H16c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"
-        />
-      </svg>
+    <div class="m-2">
+        <h2 class="text-3xl font-bold mb-1">Visión</h2>
+        <p class="text-lg text-justify">
+          Ser una Asociación reconocida globalmente por su trabajo en educación y la
+          conservación de la flor Nacional, Cattleya trianae (Linden & Rchb.f.
+          1860), y de las orquídeas del neo-trópico.
+        </p>
     </div>
   </div>
 </template>
@@ -66,17 +56,4 @@ export default {};
 </script>
 
 <style>
-.logo-text {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #262626;
-    line-height: 1em;
-}
-.slogan{
-    font-size: 9px;
-    letter-spacing: .1em;
-    color: #333;
-    font-weight: 500;
-}
 </style>

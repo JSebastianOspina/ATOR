@@ -1,13 +1,13 @@
 <template>
   <splide :options="options">
-    <splide-slide>
-      <img src="images01.jpeg">
+    <splide-slide >
+      <img src="images01.jpeg" class="object-cover">
     </splide-slide>
     <splide-slide>
-      <img src="images02.jpeg">
+      <img src="images02.jpeg" class="object-cover">
     </splide-slide>
     <splide-slide>
-      <img src="images01.jpeg">
+      <img src="images01.jpeg" class="object-cover">
     </splide-slide>
   </splide>
 </template>
@@ -21,6 +21,7 @@ import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
         options: {
           rewind : true,
           autoWidth : true,
+          height: '70vh',
           gap    : '1rem',
         },
       };

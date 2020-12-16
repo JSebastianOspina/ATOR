@@ -27,77 +27,56 @@
             class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"
             style="background-image: url(junta-directiva.jpeg)"
           >
-            <h1 class="text-2xl  text-white font-bold">Junta directiva</h1>
-            <h2 class="text-xl  text-white text-center mb-2">
-              Enero 2020 – Enero 2021
-            </h2>
-            <ul class="text-white">
-              <li><strong>Presidente</strong>: Jaime Arturo Campo</li>
-              <li>
-                <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
-              </li>
-              <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
-              <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
-              <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
-              <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
-              <li><strong>Vocal 3</strong>: Marco Rada</li>
-              <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
-              <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
-            </ul>
+          <div id="overlay">
+
+          </div>
+            <div class="z-10">
+                <h1 class="text-2xl text-gray-200 font-bold text-center">Junta directiva</h1>
+                <h2 class="text-xl text-gray-200 text-center mb-2">
+                  Enero 2020 – Enero 2021
+                </h2>
+                <ul class="text-gray-200 ml-2">
+                  <li><strong>Presidente</strong>: Jaime Arturo Campo</li>
+                  <li>
+                    <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
+                  </li>
+                  <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
+                  <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
+                  <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
+                  <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
+                  <li><strong>Vocal 3</strong>: Marco Rada</li>
+                  <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
+                  <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
+                </ul>
+            </div>
           </div>
         </slider-item>
 
-        <slider-item>
+       <slider-item>
           <div
             class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"
             style="background-image: url(junta-directiva.jpeg)"
           >
-            <h1 class="text-2xl text-gray-200 mb-6 font-bold">
-              Junta directiva
-            </h1>
-            <h2 class="text-xl text-gray-200 text-center">
-              Enero 2020 – Enero 2021
-            </h2>
-            <ul class="text-gray-200">
-              <li><strong>Presidente</strong>: Jaime Arturo Campo</li>
-              <li>
-                <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
-              </li>
-              <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
-              <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
-              <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
-              <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
-              <li><strong>Vocal 3</strong>: Marco Rada</li>
-              <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
-              <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
-            </ul>
-          </div>
-        </slider-item>
+          <div id="overlay">
 
-        <slider-item>
-          <div
-            class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"
-            style="background-image: url(junta-directiva.jpeg)"
-          >
-            <h1 class="text-2xl text-gray-200 mb-6 font-bold">
-              Junta directiva
-            </h1>
-            <h2 class="text-lg text-gray-200 text-center">
-              Enero 2020 – Enero 2021
-            </h2>
-            <ul class="text-gray-200">
-              <li><strong>Presidente</strong>: Jaime Arturo Campo</li>
-              <li>
-                <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
-              </li>
-              <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
-              <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
-              <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
-              <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
-              <li><strong>Vocal 3</strong>: Marco Rada</li>
-              <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
-              <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
-            </ul>
+          </div>
+            <div class="z-10">
+                <h1 class="text-2xl text-gray-200 font-bold text-center">Comité Científico</h1>
+            
+                <ul class="text-gray-200 ml-2">
+                  <li><strong>Prof Dr Marco Rada Ph.D</strong>: Jaime Arturo Campo</li>
+                  <li>
+                    <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
+                  </li>
+                  <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
+                  <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
+                  <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
+                  <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
+                  <li><strong>Vocal 3</strong>: Marco Rada</li>
+                  <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
+                  <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
+                </ul>
+            </div>
           </div>
         </slider-item>
       </slider>
@@ -114,6 +93,16 @@ export default {};
   color: #4f4f4f;
   line-height: 1.65em;
 }
-.externo {
+#overlay {
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 </style>

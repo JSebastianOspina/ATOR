@@ -5,7 +5,7 @@
     </div>
     <div>
       <h2 class="text-3xl text-center font-light">¿Donde estamos?</h2>
-      <p class="mt-5 parrafo ">
+      <p class="mt-5 parrafo text-justify">
         Ubicados en Ibagué - Colombia, a 1229 msnm; a una Latitud: 4°26.3334′ N
         y una Longitud: 75°13.9332′ W. En una eco región llena de biodiversidad
         y un clima apto para el desarrollo de Orquídeas. La Asociación

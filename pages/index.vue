@@ -6,6 +6,7 @@
     <Vision class="ml-6 mx-2 p-3 mt-12" />
     <Mision class="mr-6 mx-2 p-3 mt-12" />
     <DondeEstamos class="mt-12"/>
+    <EstructuraOrganizacional/>
   </div>
 </template>
 

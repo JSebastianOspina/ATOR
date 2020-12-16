@@ -1,5 +1,5 @@
 <template>
-  <slider animation="fade" class="mt-8" height="80vh" :interval="4000" :speed="1000">
+  <slider animation="fade" class="mt-8" height="70vh" :interval="4000" :speed="1000">
     <slider-item v-for="(i, index) in list" :key="index">
       <div
         class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"

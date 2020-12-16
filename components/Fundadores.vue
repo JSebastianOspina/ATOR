@@ -8,7 +8,7 @@
       reserva natural de la sociedad civil, en un lugar denominado “ la casona
       “. Fueron sus fundadores:
     </p>
-    <ul class="parrafo list-disc mb-2">
+    <ul class="parrafo  mb-2">
       <li class="mb-1">Carmen Reyes Rodriguez</li>
       <li class="mb-1">Carlos Eduardo Beltran Reyes</li>
       <li class="mb-1">Jaime Arturo Campo Sanchez</li>

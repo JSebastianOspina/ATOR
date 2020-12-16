@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-6">
+  <div class="mt-6 flex flex-col items-center justify-center">
     <div>
       <h2 class="text-3xl">Estructura organizacional</h2>
       <p class="text-justify mt-4 parrafo">
@@ -14,7 +14,7 @@
         (biotecnología), con carácter asesor de la presidencia de la ATO.
       </p>
     </div>
-    <div class="border-dotted border-4 border-red-200 p-1 mt-6 externo">
+    <div class="border-dotted border-4 border-grey-400 p-1 mt-6 w-full md:w-2/3">
       <slider
         animation="fade"
         :interval="40000"
@@ -25,17 +25,14 @@
         <slider-item>
           <div
             class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"
-            style="background-image: url(junta-directiva.jpeg)"
           >
-          <div id="overlay">
-
-          </div>
+         
             <div class="z-10">
-                <h1 class="text-2xl text-gray-200 font-bold text-center">Junta directiva</h1>
-                <h2 class="text-xl text-gray-200 text-center mb-2">
+                <h1 class="text-2xl parrafo font-bold text-center">Junta directiva</h1>
+                <h2 class="text-xl parrafo text-center mb-2">
                   Enero 2020 – Enero 2021
                 </h2>
-                <ul class="text-gray-200 ml-2">
+                <ul class="parrafo ml-2">
                   <li><strong>Presidente</strong>: Jaime Arturo Campo</li>
                   <li>
                     <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
@@ -55,15 +52,13 @@
        <slider-item>
           <div
             class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"
-            style="background-image: url(junta-directiva.jpeg)"
+           
           >
-          <div id="overlay">
-
-          </div>
+        
             <div class="z-10">
-                <h1 class="text-2xl text-gray-200 font-bold text-center">Comité Científico</h1>
+                <h1 class="text-2xl parrafo font-bold text-center">Comité Científico</h1>
             
-                <ul class="text-gray-200 ml-2">
+                <ul class="parrafo ml-2">
                   <li><strong>Prof Dr Marco Rada Ph.D</strong>: Jaime Arturo Campo</li>
                   <li>
                     <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
@@ -101,7 +96,7 @@ export default {};
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.3); /* Black background with opacity */
+  background-color: rgba(0,0,0,0.0); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }

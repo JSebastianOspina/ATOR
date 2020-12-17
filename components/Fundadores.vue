@@ -5,8 +5,7 @@
       La Asociación Tolimense de Orquideología ATO, nace por la iniciativa de
       Carlos Eduardo Beltran Reyes; Se creó el 30 de enero del año 2017, en una
       reunión efectuada para tal fin en la Universidad de Ibagué, junto a una
-      reserva natural de la sociedad civil, en un lugar denominado “ la casona
-      “. Fueron sus fundadores:
+      reserva natural de la sociedad civil, en un lugar denominado “la casona“. Fueron sus fundadores:
     </p>
     <ul class="parrafo  mb-2">
       <li class="mb-1">Carmen Reyes Rodriguez</li>
@@ -21,7 +20,7 @@
       <li class="mb-1">Carlos Fernando Arias Riveros</li>
     </ul>
     <p class="parrafo text-justify">
-      En la actualidad la Asociaci&oacute;n Tolimense de Orquideologia ( ATO ) ;
+      En la actualidad la Asociaci&oacute;n Tolimense de Orquideologia (ATO) ;
       Cuenta con investigadores asociados&nbsp; del Tolima, Colombia y otros
       paises.
     </p>

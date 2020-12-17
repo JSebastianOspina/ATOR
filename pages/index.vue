@@ -10,7 +10,7 @@
         <Mision class="mr-6 mx-2 p-3 mt-12" />
         <DondeEstamos class="mt-12" />
       </div>
-      <Comite2 />
+      <Comite2 class="px-5 sm:px-0" />
 
       <Parallax />
       <div class="mx-5 md:w-4/5"></div>

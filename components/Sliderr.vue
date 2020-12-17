@@ -18,22 +18,22 @@ export default {
     return {
       list: [
         {
-          src: "images01.jpeg",
-          alt: "Descripcion imagen 1",
+          src: "slider/1.jpg",
+          alt: "Cattleya forbesii",
           encabezado: 'ATOR',
           subtitulo:'Página web oficial de la asociación tolimense de orquidelogía'
         },
         {
-           src: "images02.jpeg",
-          alt: "Descripcion imagen 1",
+           src: "slider/2.jpg",
+          alt: "Ocidium cebolleta",
           encabezado: 'Conócenos',
           subtitulo:'Estamos ubicados en Ibagué tolima'
         },
         {
           
-          src: "images01.jpeg",
-          alt: "Descripcion imagen 3",
-            encabezado: '¿Alguna duda?',
+          src: "slider/3.jpg",
+          alt: "Cattleya mendelli",
+          encabezado: '¿Alguna duda?',
           subtitulo:'Contáctanos!'
         },
       ],

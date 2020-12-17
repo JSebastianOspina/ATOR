@@ -14,63 +14,63 @@
         (biotecnología), con carácter asesor de la presidencia de la ATO.
       </p>
     </div>
-    <div class="border-dotted border-4 border-grey-400 p-1 mt-6 w-full md:w-2/3">
+    <div
+      class="border-dotted border-l-4 border-r-4 border-grey-400 mt-12 w-full md:w-1/3"
+    >
       <slider
         animation="fade"
-        :interval="40000"
+        :interval="4000"
         :speed="1000"
         :control-btn="false"
         height="380px"
+        stopOnHover="true"
       >
         <slider-item>
-          <div
-            class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"
-          >
-         
-            <div class="z-10">
-                <h1 class="text-2xl parrafo font-bold text-center">Junta directiva</h1>
-                <h2 class="text-xl parrafo text-center mb-2">
-                  Enero 2020 – Enero 2021
-                </h2>
-                <ul class="parrafo ml-2">
-                  <li><strong>Presidente</strong>: Jaime Arturo Campo</li>
-                  <li>
-                    <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
-                  </li>
-                  <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
-                  <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
-                  <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
-                  <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
-                  <li><strong>Vocal 3</strong>: Marco Rada</li>
-                  <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
-                  <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
-                </ul>
-            </div>
+          <div class="flex flex-col justify-start items-center w-full h-full ">
+              <h1 class="text-2xl parrafo font-bold text-center">
+                Junta directiva
+              </h1>
+              <h2 class="text-xl parrafo text-center mb-2">
+                Enero 2020 – Enero 2021
+              </h2>
+              <ul class="parrafo ml-2">
+                <li><strong>Presidente</strong>: Jaime Arturo Campo</li>
+                <li>
+                  <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
+                </li>
+                <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
+                <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
+                <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
+                <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
+                <li><strong>Vocal 3</strong>: Marco Rada</li>
+                <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
+                <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
+              </ul>
           </div>
         </slider-item>
 
-       <slider-item>
-          <div
-            class="flex flex-col justify-center items-center h-full w-full bg-cover bg-center"
-           
-          >
-        
-            <div class="z-10">
-                <h1 class="text-2xl parrafo font-bold text-center">Comité Científico</h1>
-            
-                <ul class="parrafo ml-2">
-                  <li><strong>Prof Dr Marco Rada Ph.D</strong>: Jaime Arturo Campo</li>
-                  <li>
-                    <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
-                  </li>
-                  <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
-                  <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
-                  <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
-                  <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
-                  <li><strong>Vocal 3</strong>: Marco Rada</li>
-                  <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
-                  <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
-                </ul>
+        <slider-item>
+          <div class="flex flex-col justify-start items-center h-full w-full">
+            <div class="">
+              <h1 class="text-2xl parrafo font-bold text-center">
+                Comité Científico
+              </h1>
+
+              <ul class="parrafo ml-2">
+                <li>
+                  <strong>Prof Dr Marco Rada Ph.D</strong>: Jaime Arturo Campo
+                </li>
+                <li>
+                  <strong>Vice-presidente</strong>: Carlos Eduardo Beltran Reyes
+                </li>
+                <li><strong>Secretaria</strong>: Luz Patricia Naranjo</li>
+                <li><strong>Tesorero</strong>: Luis Fernando Arias</li>
+                <li><strong>Vocal 1</strong>: Cesar Augusto Nuñez</li>
+                <li><strong>Vocal 2</strong>: Manuel Guillermo Forero</li>
+                <li><strong>Vocal 3</strong>: Marco Rada</li>
+                <li><strong>Revisor Fiscal</strong>: Sandra Liliana Riveros</li>
+                <li><strong>Asesor Jurídico</strong>: Juan Manuel Barrero</li>
+              </ul>
             </div>
           </div>
         </slider-item>
@@ -96,7 +96,7 @@ export default {};
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.0); /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }

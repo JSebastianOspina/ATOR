@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col md:flex-row">
+  <div class="flex flex-col md:flex-row md:justify-around mb-12">
     <div class="mb-6">
       <img src="donde-estamos1.jpeg" class="object-fit" alt="¿Donde estamos?" />
     </div>
     <div>
-      <h2 class="text-3xl text-center font-light">¿Donde estamos?</h2>
-      <p class="mt-5 parrafo text-justify">
+      <h2 class="text-3xl font-light">¿Donde estamos?</h2>
+      <p class="mt-5 parrafo text-justify ">
         Ubicados en Ibagué - Colombia, a 1229 msnm; a una Latitud: 4°26.3334′ N
         y una Longitud: 75°13.9332′ W. En una eco región llena de biodiversidad
         y un clima apto para el desarrollo de Orquídeas. La Asociación

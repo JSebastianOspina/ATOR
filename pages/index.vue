@@ -9,10 +9,11 @@
         <Vision class="ml-6 mx-2 p-3 mt-12" />
         <Mision class="mr-6 mx-2 p-3 mt-12" />
         <DondeEstamos class="mt-12" />
-        <EstructuraOrganizacional />
-        
       </div>
-      <Parallax class="mt-5"/>
+      <Comite2 />
+
+      <Parallax />
+      <div class="mx-5 md:w-4/5"></div>
     </div>
   </div>
 </template>

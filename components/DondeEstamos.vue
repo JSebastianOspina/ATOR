@@ -19,8 +19,7 @@
       </div>
       <h2 class="text-4xl text-gray-200 tracking-wide">¿Donde estamos?</h2>
       <p class="mt-5 text-justify text-gray-200 leading-6">
-        Ubicados en Ibagué - Colombia, a 1229 msnm; a una Latitud: 4°26.3334′ N
-        y una Longitud: 75°13.9332′ W. En una eco región llena de biodiversidad
+        Ubicados en Ibagué - Colombia, en una eco región llena de biodiversidad
         y un clima apto para el desarrollo de Orquídeas. La Asociación
         Orquideólogica del Tolima reúne una vez por mes sus asociados. La actual
         sede de reuniones de la ATO está en la casona de la Universidad de

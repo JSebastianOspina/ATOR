@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="mt-8">
     <h2 class="text-3xl font-bold mb-2">Fundadores</h2>
     <p class="text-justify parrafo mb-2">
       La Asociación Tolimense de Orquideología ATO, nace por la iniciativa de

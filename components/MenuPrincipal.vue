@@ -42,7 +42,7 @@
         </svg>
       </div>
       <div class="ml-2 mt-1 flex flex-col items-center justify-center logo-text">
-        <span class="">ATOR</span>
+        <span class="">ATO</span>
 
         <span class="slogan">Asociación tolimense de Orquidelogía</span>
       </div>

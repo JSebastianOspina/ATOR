@@ -20,7 +20,7 @@ export default {
         {
           src: "slider/1.jpg",
           alt: "Cattleya forbesii",
-          encabezado: 'ATOR',
+          encabezado: 'ATO',
           subtitulo:'Página web oficial de la asociación tolimense de orquidelogía'
         },
         {

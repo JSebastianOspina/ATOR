@@ -18,9 +18,7 @@
     </div>
     -->
 
-    <h2 class="text-center text-3xl font-bold my-12">
-      Estructura organizacional
-    </h2>
+    <h2 class="text-center text-3xl font-bold my-12">Charlas y cursos 2021</h2>
     <div
       class="border-double border-4 p-2 border-grey-400 w-full md:w-2/4 mb-6"
       v-for="(i, key) in data"
@@ -29,37 +27,60 @@
       <h3 class="text-2xl parrafo font-bold text-center">
         {{ i.nombre }}
       </h3>
-      <h4 class="text-lg parrafo text-center mb-2">Enero 2020 – Enero 2021</h4>
       <ul class="parrafo ml-2">
-        <li v-for="(o, llave) in i.miembros" :key="o.Cargo">
-          <strong>{{ o.Cargo }}</strong>
-          <ul>
-            <li v-for="(u, llave2) in o.persona" :key="llave2">
-              {{ u }}
-            </li>
-          </ul>
+        <li v-for="(o, llave) in i.miembros" :key="o.Cargo" class="mb-4">
+          <strong>{{ o.evento }}: {{ o.nombre }}</strong>
+          <p><strong>Conduce:</strong> {{ o.coonduce }} - {{ o.fecha }}</p>
         </li>
       </ul>
+      <p class="ml-2">* via hangouts meet</p>
+      <p class="ml-2">
+        <strong>Mayores informes:</strong> atorquideas@hotmail.com
+      </p>
     </div>
 
-    <h2 class="text-center text-3xl font-bold mt-12 mb-6">
-      Ponencias e Investigaciones
-    </h2>
+    <div class="w-full md:w-2/4">
+      <h2 class="text-center text-3xl font-bold mt-6">
+        Trofeos que otorga la Asociacion Tolimense de Orquideologia ( ATO )
+      </h2>
+      <p class="text-justify text-sm font-semibold my-6">
+        Por resolucion No.003 de junio 19 de 2019 del comite ejecutivo, se
+        crearon los siguientes Trofeos, para ser otrogados en las Exposiciones
+        Nacionales e internacionales de orquideas en los que participare la ATO
+      </p>
+    </div>
+
     <div
       class="border-double border-4 p-2 border-grey-400 w-full md:w-2/4 mb-6"
+      v-for="(i, key) in data"
+      :key="key"
     >
-      <h3 class="text-lg parrafo font-bold text-center mb-4">
-        <a
-          href="https://link.springer.com/chapter/10.1007%2F978-3-030-49076-8_4"
-          >XII Conferencia Mexicana, MCPR 2020, Morelia, México, 24–27 de junio
-          de 2020</a
-        >
+      <h3 class="text-2xl parrafo font-bold text-center">
+        Trofeo a la mejor Cattleya trianae.
       </h3>
-      <h3 class="text-lg parrafo font-bold text-center">
-        <a href="https://sfo-asso.fr/wp-content/uploads/2019/01/140.pdf"
-          >XVIII Conferencia Europea de Orquideologia .Paris - Francia</a
-        >
+      <p class="ml-2 text-center mb-2">
+        (Ya sea: alba, semi alba, coerulea, u otros colores)
+      </p>
+
+      <p class="ml-2 mb-4">
+        <strong>Si NO la hubiere en la exposición</strong>, se entregara
+        entonces al mejor híbrido de Cattleya que pueda demostrar, a juicio de
+        los Jueces de la exposición; que tiene en su composición Catleya trianae
+      </p>
+
+      <h3 class="text-2xl parrafo font-bold text-center">
+        Trofeo al mejor Epidendrum especie
       </h3>
+
+      <p class="ml-2">
+        <strong>Si NO la hubiere en la exposición</strong>, se entregara
+        entonces al mejor híbrido que pueda demostrar, a juicio de los Jueces de
+        la exposicion; que tiene en su composición Epidendrum.
+      </p>
+
+      <p class="ml-2">
+        <strong>Mayores informes:</strong> atorquideas@hotmail.com
+      </p>
     </div>
   </div>
 </template>
@@ -70,106 +91,86 @@ export default {
     return {
       data: [
         {
-          nombre: "Junta directiva",
+          nombre: "Progamacion actual",
           miembros: [
             {
-              Cargo: "Presidente",
-              persona: ["Jaime Arturo Campo"],
+              evento: "Curso",
+              nombre: "Fotografía de flores",
+              coonduce: "Manuel G. Forero",
+              fecha: "Enero 24 - 25  ",
             },
-            {
-              Cargo: "Vice-presidente",
-              persona: ["Carlos Eduardo Beltran "],
-            },
-            {
-              Cargo: "Secretaria",
-              persona: ["Luz Patricia Naranjo"],
-            },
-            {
-              Cargo: "Tesorero",
-              persona: ["Luis Fernando Arias"],
-            },
-            {
-              Cargo: "Vocal 1",
-              persona: ["Cesar Augusto Nuñez"],
-            },
-            {
-              Cargo: "Vocal 2",
-              persona: ["Manuel Guillermo Forero"],
-            },
-            {
-              Cargo: "Vocal 3",
-              persona: ["Marco Rada"],
-            },
-            {
-              Cargo: "Revisor Fiscal",
-              persona: ["Sandra Liliana Riveros"],
-            },
-            {
-              Cargo: "Asesor Jurídico",
-              persona: ["Juan Manuel Barrero"],
-            },
-          ],
-        },
-        {
-          nombre: "Comité Científico",
-          miembros: [
-            {
-              Cargo: "Prof Dr Marco rada ph.D",
-              persona: [
-                "director comite cientifico",
-                "Investigador ATO e Investigador Asociado, Laboratoio de Anfibios",
-                "Instituto de Biociências, Universidade de São Paulo (USP), Brasil.",
-              ],
-            },
-            {
-              Cargo: "Prof Dr. Luz Patricia Naranjo Ph.D",
-              persona: ["G. Naturatu /Fac. de Ciencias Universidad de Ibagué."],
-            },
-            {
-              Cargo: "Prof Dr.Manuel Guillermo Forero .Ph.D",
-              persona: [
-                "Director de investigacion D + Tec / ",
-                "Decano Fac. de Ingeniería Universidad de Ibagué.",
-              ],
-            },
-            {
-              Cargo: "Prof/Cand PhD. Miguel Cesar Moreno ",
-              persona: [
-                "Representate de Naturatu,",
-                " Asesor programa Biologia Ambiental (Fac. de Ciencias Unibague).",
-              ],
-            },
-            {
-              Cargo: "Prof. Cesar Augusto Nuñez MSc ",
-              persona: [
-                "Asesor CORTOLIMA ",
-                "Asesor línea ambiental Facultad de Ciencias Universidad.de Ibagué",
-                "Asesor ATO.",
-              ],
-            },
-          ],
-        },
 
-        {
-          nombre: "Comité Laboratoios y Biotecnología",
-          miembros: [
             {
-              Cargo: "Ing Juan Carlos Otavo MSc ",
-              persona: ["Coordinador."],
+              evento: "Charla",
+              nombre: "Orquídeas en 10 municipios del Tolima",
+              coonduce: "Arturo Campo",
+              fecha: "Enero 29",
             },
+
             {
-              Cargo: "Yensi Katherine Moreno.",
-              persona: [
-                "Tec / Asistente laboratoio de Biotecnología e Invitro/ Universidad de Ibagué.",
-              ],
+              evento: "Curso",
+              nombre: "Fotografía de flores II",
+              coonduce: "Cesar Augusto Nuñez",
+              fecha: "Febrero 7",
             },
-          ],
-        },
-        {
-          nombre: "Comité de Eventos",
-          miembros: [
+
             {
-              persona: ["La junta Directiva y todos los Asociados de la ATO "],
+              evento: "Curso",
+              nombre: "Cultivo orquídeas de clima medio y caliente",
+              coonduce: "Carlos Eduardo Beltrán",
+              fecha: "Febrero 21",
+            },
+
+            {
+              evento: "Curso",
+              nombre: "Intr.Juzgamiento de orquídeas I",
+              coonduce: "Maximiliam Barents-Von Hohenhagen",
+              fecha: "Abril 16-17",
+            },
+
+            {
+              evento: "Charla",
+              nombre: "Biodiversidad y orquídeas",
+              coonduce: "Cesar Nuñez ",
+              fecha: "Mayo 15",
+            },
+
+            {
+              evento: "Curso",
+              nombre: "Cultivo in vitro de Orquideas",
+              coonduce: "Yensy Khaterine Moreno",
+              fecha: "Junio 6",
+            },
+
+            {
+              evento: "Charla",
+              nombre:
+                "Orquideas en los alrededores de las reservas hídricas del Tolima ",
+              coonduce: "Carlos Cuenca de Cor-cuencas Tolima",
+              fecha: "Julio 17 *",
+            },
+
+            {
+              evento: "Charla",
+              nombre:
+                "El genero Paphiopedilum. Orquídeas del sudeste asiático ",
+              coonduce: "Carlos Eduardo Beltrán",
+              fecha: "Agosto 14 *",
+            },
+
+            {
+              evento: "Curso",
+              nombre: "Juzgamiento de orquídeas II",
+              coonduce: "Maximiliam Barents-Von Hohenhagen",
+              fecha: "Septiembre 4 - 5",
+            },
+
+            {
+              evento: "Charla",
+              nombre:
+                "El Cultivo de las  Cattleyas Bifolidas (especies de Brasil)",
+              coonduce: "Marco Rada (por confirmar)",
+              fecha: "Octubre 16 *",
             },
           ],
         },

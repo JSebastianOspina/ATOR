@@ -1,7 +1,7 @@
 <template>
   <div class="l">
     <div
-      class="flex items-center justify-center md:justify-end bg-fixed w-screen bg-center bg-cover md:h-screen"
+      class="flex items-center justify-center md:justify-end bg-fill md:bg-fixed w-screen bg-center bg-cover md:h-screen"
       :style="'background-image: url(orquidea1.jpg)'"
     >
       <div class="w-full md:w-1/3 bg-white m-8 px-6 py-8 md:p-12 md:mr-16">

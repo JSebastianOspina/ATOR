@@ -8,16 +8,16 @@
       reserva natural de la sociedad civil, en un lugar denominado “la casona“. Fueron sus fundadores:
     </p>
     <ul class="parrafo  mb-2">
-      <li class="mb-1">Carmen Reyes Rodriguez</li>
-      <li class="mb-1">Carlos Eduardo Beltran Reyes</li>
-      <li class="mb-1">Jaime Arturo Campo Sanchez</li>
-      <li class="mb-1">Luis Fernando Arias</li>
-      <li class="mb-1">Juan Carlos Otavo</li>
-      <li class="mb-1">Luz Patricia Naranjo</li>
-      <li class="mb-1">Manuel Guillermo Forero</li>
-      <li class="mb-1">Miguel Cesar Moreno (representación de Naturatu)</li>
-      <li class="mb-1">Cesar Augusto Nu&ntilde;ez</li>
-      <li class="mb-1">Carlos Fernando Arias Riveros</li>
+      <li class="mb-1 list-disc list-inside">Carmen Reyes Rodriguez</li>
+      <li class="mb-1 list-disc list-inside">Carlos Eduardo Beltran Reyes</li>
+      <li class="mb-1 list-disc list-inside">Jaime Arturo Campo Sanchez</li>
+      <li class="mb-1 list-disc list-inside">Luis Fernando Arias</li>
+      <li class="mb-1 list-disc list-inside">Juan Carlos Otavo</li>
+      <li class="mb-1 list-disc list-inside">Luz Patricia Naranjo</li>
+      <li class="mb-1 list-disc list-inside">Manuel Guillermo Forero</li>
+      <li class="mb-1 list-disc list-inside">Miguel Cesar Moreno (representación de Naturatu)</li>
+      <li class="mb-1 list-disc list-inside">Cesar Augusto Nu&ntilde;ez</li>
+      <li class="mb-1 list-disc list-inside">Carlos Fernando Arias Riveros</li>
     </ul>
     <p class="parrafo text-justify">
       En la actualidad la Asociaci&oacute;n Tolimense de Orquideologia (ATO) ;

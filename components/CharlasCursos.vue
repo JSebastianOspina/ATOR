@@ -91,7 +91,7 @@ export default {
     return {
       data: [
         {
-          nombre: "Progamacion actual",
+          nombre: "Progamación actual",
           miembros: [
             {
               evento: "Curso",

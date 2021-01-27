@@ -24,7 +24,7 @@
       </ul>
     </div>
 
-    <h2 class="text-center text-3xl font-bold mt-12 mb-6">
+    <h2 class="text-center text-3xl font-bold mt-4 mb-6">
       Ponencias e Investigaciones
     </h2>
     <div
